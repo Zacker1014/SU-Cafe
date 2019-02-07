@@ -2,7 +2,14 @@ body {
   text-align: center;
   background-color: #f16821;
   font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
 
+h1{
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 /* Bordered form */
@@ -82,9 +89,10 @@ span.psw {
 
 .butn {
   color: #f77754;
-  font-size: 20px;
-  background: #30e3ca;
+  font-size: 40px;
+  font-weight: bold;
   font-family:  'Indie Flower', cursive;
+  background: #30e3ca;
   width:35%;
 }
 

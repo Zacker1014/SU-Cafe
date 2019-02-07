@@ -8,10 +8,20 @@ const app = express();
 
 app.use(bodyParser.urlencoded({extended:true}));
 
-app.get("/",function(req,res){
-  res.sendFile("/index.html",{root: __dirname });
 
+app.use(express.static(__dirname));
+
+
+
+app.get('/', function(req, res){
+  res.sendfile(__dirname + 'index.html');
 });
+
+
+// app.get('/menu.html',function(req,res){
+//   var bagal = req.body.bagel;
+// });
+
 
 
 
