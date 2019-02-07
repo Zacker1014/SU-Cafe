@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SU Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Indie+Flower|Pacifico" rel="stylesheet">
+  </head>
+  <body>
+  <h1>SU Cafe</h1>
+  <form action="action_page.php">
+  <div class="imgcontainer">
+    <img src="http://fujirock-eng.com/frf17/img/funarea/orangecafe.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#30e3ca">
+    <button type="button" class="registerbtn">Register</button>
+    <span class="psw">Forgot <a href="menu.html">password?</a></span>
+  </div>
+</form>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+  </body>
+</html>
